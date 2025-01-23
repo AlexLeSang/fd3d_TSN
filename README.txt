@@ -55,3 +55,9 @@ There are several outputs in the folder result:
 		- PrintTimeSeries.m - prints time series of slip rate and traction at a given node
 Further documentation is provided in the doc folder. File FD3D_TSN Theoretical background describes the implementation of the finite difference method and boundary conditions, 
 while FD3D_TSN Using the code describes input/output files and compilation options. 
+
+
+# Compilation
+
+1. Install gfortran
+2. For each folder in `examples`, run `./compile.sh`, executable fd3d_gnu_TSN will be created
